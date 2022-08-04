@@ -1,0 +1,905 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+
+.buttons{
+	width: 100%;
+	height: 100px;
+	margin: 80px 0;
+}
+.section-2 .buttons{
+	width: 100%;
+	height: 100px;
+	margin: 80px 0;
+	box-shadow: none;
+}
+.section-3 .buttons{
+	width: 100%;
+	height: 100px;
+	margin: 80px 0;
+}
+.section-4 .buttons{
+}
+
+.button{
+	display: flex;
+	align-items: center;
+	height: 100px;
+}
+
+/* *************************************************
+							btn-1 Css code Start
+*************************************************** */
+.btn-1{
+	color: white;
+	font-size: 18px;
+	background: red;
+	border-radius: 5px;
+	border: none;
+	padding: 15px 30px;
+	font-weight: 600;
+	transition: 0.4s;
+}
+.btn-1:hover{
+	background-color: #bb0b0b;
+	transition: 0.4s;
+}
+/* *************************************************
+							btn-1 Css code End
+*************************************************** */
+
+
+/* *************************************************
+							btn-2 Css code Start
+*************************************************** */
+.btn-2{
+	color: white;
+	font-size: 18px;
+	background: blue;
+	border: none;
+	padding: 15px 30px;
+	font-weight: 600;
+	transition: 0.4s;
+}
+.btn-2:hover{
+	background-color: #133fa6;
+	transition: 0.4s;
+}
+/* *************************************************
+							btn-2 Css code End
+*************************************************** */
+
+
+/* *************************************************
+							btn-3 Css code Start
+*************************************************** */
+.btn-3{
+	color: white;
+	font-size: 18px;
+	background: green;
+	border: none;
+	padding: 15px 30px;
+	font-weight: 600;
+	transition: 0.4s;
+	position: relative;
+	z-index: 9;
+}
+.btn-3::before{
+	content: '';
+	position: absolute;
+	width: 0%;
+	height: 100%;
+	background: red;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+	opacity: 0;
+	transition: 0.4s;
+}
+.btn-3:hover::before{
+	opacity: 1;
+	width: 100%;
+	transition: 0.4s;
+}
+/* *************************************************
+							btn-3 Css code End
+*************************************************** */
+
+
+/* *************************************************
+							btn-4 Css code Start
+*************************************************** */
+.btn-4{
+	color: white;
+	font-size: 18px;
+	background: darkblue;
+	border: none;
+	padding: 15px 30px;
+	font-weight: 600;
+	transition: 0.4s;
+	position: relative;
+	z-index: 9;
+}
+.btn-4::before{
+	content: '';
+	position: absolute;
+	width: 0%;
+	height: 100%;
+	background: #f41cd3;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	z-index: -1;
+	opacity: 0;
+	transition: 0.4s;
+}
+.btn-4:hover::before{
+	opacity: 1;
+	width: 100%;
+	transition: 0.4s;
+}
+/* *************************************************
+							btn-4 Css code End
+*************************************************** */
+
+
+
+/* *************************************************
+							btn-5 Css code Start
+*************************************************** */
+.btn-5{
+	color: white;
+	font-size: 18px;
+	background: #FA2FB5;
+	border: none;
+	padding: 15px 30px;
+	font-weight: 600;
+	transition: 0.4s;
+	position: relative;
+	z-index: 9;
+}
+.btn-5::before{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 0%;
+	background: #100720;
+	right: 0;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	opacity: 0;
+	transition: 0.4s;
+}
+.btn-5:hover::before{
+	opacity: 1;
+	height: 100%;
+	transition: 0.4s;
+}
+/* *************************************************
+							btn-5 Css code End
+*************************************************** */
+
+/* *************************************************
+							btn-6 Css code Start
+*************************************************** */
+.btn-6{
+	color: white;
+	font-size: 18px;
+	background: #355764;
+	border: none;
+	padding: 15px 30px;
+	font-weight: 600;
+	transition: 0.4s;
+	position: relative;
+	z-index: 9;
+}
+.btn-6::before{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 0%;
+	background: #5A8F7B;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+	opacity: 0;
+	transition: 0.4s;
+}
+.btn-6:hover::before{
+	opacity: 1;
+	height: 100%;
+	transition: 0.4s;
+}
+/* *************************************************
+							btn-6 Css code End
+*************************************************** */
+
+
+/* *************************************************
+							btn-7 Css code Start
+*************************************************** */
+.btn-7{
+	color: white;
+	font-size: 18px;
+	background: #100F0F;
+	border: none;
+	padding: 15px 30px;
+	font-weight: 600;
+	transition: 0.4s;
+	position: relative;
+	z-index: 9;
+}
+.btn-7::before{
+	content: '';
+	position: absolute;
+	width: 0%;
+	background: red;
+	right: 50%;
+	bottom: 0;
+	left: 50%;
+	top: 0;
+	z-index: -1;
+	opacity: 0;
+	transition: 0.4s;
+}
+.btn-7:hover::before{
+	right: 0;
+	left: 0;
+	opacity: 1;
+	width: 100%;
+	transition: 0.4s;
+}
+/* *************************************************
+							btn-7 Css code End
+*************************************************** */
+
+
+/* *************************************************
+							btn-8 Css code Start
+*************************************************** */
+.btn-8{
+	color: white;
+	font-size: 18px;
+	background: #100F0F;
+	border: none;
+	padding: 15px 30px;
+	font-weight: 600;
+	transition: 0.4s;
+	position: relative;
+	z-index: 9;
+}
+.btn-8::before{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 0%;
+	background: red;
+	right: 0;
+	bottom: 50%;
+	left: 0;
+	top: 50%;
+	z-index: -1;
+	opacity: 0;
+	transition: 0.4s;
+}
+.btn-8:hover::before{
+	top: 0;
+	bottom: 0;
+	opacity: 1;
+	height: 100%;
+	transition: 0.4s;
+}
+/* *************************************************
+							btn-8 Css code End
+*************************************************** */
+
+
+/* *************************************************
+							btn-9 Css code Start
+*************************************************** */
+.btn-9{
+	color: white;
+	font-size: 18px;
+	background: #1C3879;
+	border: none;
+	padding: 15px 30px;
+	font-weight: 600;
+	transition: 0.4s;
+	position: relative;
+	z-index: 9;
+}
+.btn-9::before{
+	content: '';
+	position: absolute;
+	width: 0%;
+	background: #FF06B7;
+	right: 50%;
+	bottom: 50%;
+	left: 50%;
+	top: 50%;
+	z-index: -1;
+	opacity: 0;
+	transition: 0.4s;
+}
+.btn-9:hover::before{
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	opacity: 1;
+	width: 100%;
+	transition: 0.4s;
+}
+/* *************************************************
+							btn-9 Css code End
+*************************************************** */
+
+
+/* *************************************************
+							btn-10 Css code Start
+*************************************************** */
+.btn-10{
+	color: black;
+	font-size: 18px;
+	background: #FF06B7;
+	border: none;
+	padding: 15px 30px;
+	font-weight: 600;
+	transition: 0.4s;
+	position: relative;
+	z-index: 9;
+}
+.btn-10::before{
+	content: '';
+	position: absolute;
+	width: 0%;
+	background: yellow;
+	right: 50%;
+	bottom: 50%;
+	left: 50%;
+	top: 50%;
+	z-index: -1;
+	opacity: 0;
+	transition: 0.4s;
+}
+.btn-10:hover::before{
+	left: 5px;
+	right: 5px;
+	top: 5px;
+	bottom: 5px;
+	opacity: 1;
+	width: 95%;
+	transition: 0.4s;
+}
+/* *************************************************
+							btn-10 Css code End
+*************************************************** */
+
+/* *************************************************
+							btn-11 Css code Start
+*************************************************** */
+.btn-11{
+	color: white;
+	font-size: 18px;
+	background: #F10086;
+	border: none;
+	padding: 15px 30px;
+	font-weight: 600;
+	transition: 0.4s;
+	position: relative;
+	z-index: 9;
+	border-radius: 8px;
+}
+.btn-11:hover{
+	box-shadow: inset 70px 0 0 0 #0E3EDA;
+	transition: 0.4s;
+}
+/* *************************************************
+							btn-11 Css code End
+*************************************************** */
+
+/* *************************************************
+							btn-12 Css code Start
+*************************************************** */
+.btn-12{
+	color: white;
+	font-size: 18px;
+	background: #0E3EDA;
+	border: none;
+	padding: 15px 30px;
+	font-weight: 600;
+	transition: 0.4s;
+	position: relative;
+	z-index: 9;
+}
+.btn-12:hover{
+	box-shadow: inset 97px 0 0 0 #F10086, inset -97px 0 0 0 #F10086;
+	transition: 0.4s;
+}
+/* *************************************************
+							btn-12 Css code End
+*************************************************** */
+
+
+/* *************************************************
+							btn-13 Css code Start
+*************************************************** */
+.btn-13{
+	color: white;
+	font-size: 18px;
+	background: #A85CF9;
+	border: none;
+	padding: 15px 30px;
+	font-weight: 600;
+	transition: 0.4s;
+	position: relative;
+	z-index: 9;
+	border-radius: 8px;
+}
+.btn-13:hover{
+	box-shadow: inset 25px 15px 5px 0 #3330E4, inset -25px -15px 5px 0 #3330E4;
+	transition: 0.4s;
+}
+/* *************************************************
+							btn-13 Css code End
+*************************************************** */
+
+/* *************************************************
+							btn-14 Css code Start
+*************************************************** */
+.btn{
+	color: #939393;
+	font-size: 18px;
+	background-color: var(--background-color) !important;
+	border: none;
+	padding: 15px 30px !important;
+	font-weight: 600 !important;
+	transition: 0.4s;
+	position: relative;
+	z-index: 9;
+	--border-size: 2px;
+	--background-color: white !important;
+}
+.btn.btn-border-pop::before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+	border: var(--border-size) solid var(--background-color);
+	transition: 0.4s;
+}
+.btn.btn-border-pop:hover::before,
+.btn.btn-border-pop:focus::before{
+	top: calc(var(--border-size)* -4);
+	left: calc(var(--border-size)* -4);
+	right: calc(var(--border-size)* -4);
+	bottom: calc(var(--border-size)* -4);
+	transition: 0.4s;
+}
+/* *************************************************
+							btn-14 Css code End
+*************************************************** */
+
+/* **************************************************
+			btn-15 css code Start
+****************************************************** */
+
+.btn-15{
+	padding: 15px 30px;
+	border: none;
+	background-color: #87eb9b;
+	color: #b51111;
+	border-radius: 5px;
+	position: relative;
+}
+.btn-15::after{
+	content: '';
+	position: absolute;
+	width: 0%;
+	height: 3px;
+	background-color: red;
+	bottom: 0;
+	left: 50%;
+	right: 50%;
+	transition: 0.5s;
+	opacity: 0;
+}
+.btn-15:hover::after{
+	left: 0;
+	right: 0;
+	opacity: 1;
+	width: 100%;
+}
+
+/* **************************************************
+			btn-15 css code End
+****************************************************** */
+
+
+/* **************************************************
+			btn-16 css code Start
+****************************************************** */
+
+.btn-16{
+	padding: 15px 30px;
+	border: none;
+	background-color: #37a2ce;
+	color: white;
+	border-radius: 5px;
+	position: relative;
+}
+.btn-16::after{
+	content: '';
+	position: absolute;
+	width: 0%;
+	height: 3px;
+	background-color: red;
+	bottom: 0;
+	left: 50%;
+	right: 50%;
+	transition: 0.5s;
+	opacity: 0;
+}
+.btn-16:hover::after{
+	left: 0;
+	right: 0;
+	opacity: 1;
+	width: 100%;
+}
+.btn-16::before{
+	content: '';
+	position: absolute;
+	width: 0%;
+	height: 3px;
+	background-color: red;
+	top: 0;
+	left: 50%;
+	right: 50%;
+	transition: 0.5s;
+	opacity: 0;
+}
+.btn-16:hover::before{
+	left: 0;
+	right: 0;
+	opacity: 1;
+	width: 100%;
+}
+
+/* **************************************************
+			btn-16 css code End
+****************************************************** */
+
+
+
+/* **************************************************
+			btn-17 css code Start
+****************************************************** */
+
+.btn-17{
+	padding: 15px 30px;
+	border: none;
+	background-color: #87ebae;
+	color: #1a14d5;
+	border-radius: 5px;
+	position: relative;
+}
+.btn-17::after{
+	content: '';
+	position: absolute;
+	width: 0%;
+	height: 3px;
+	background-color: red;
+	bottom: 0;
+	left: 0;
+	transition: 0.5s;
+	opacity: 0;
+}
+.btn-17:hover::after{
+	left: 0;
+	opacity: 1;
+	width: 100%;
+}
+.btn-17::before{
+	content: '';
+	position: absolute;
+	width: 0%;
+	height: 3px;
+	background-color: red;
+	top: 0;
+	right: 0;
+	transition: 0.5s;
+	opacity: 0;
+}
+.btn-17:hover::before{
+	right: 0;
+	opacity: 1;
+	width: 100%;
+}
+
+/* ****************************************************
+						17 css code End
+****************************************************** */
+
+
+
+/* **************************************************
+			btn-18 css code Start
+****************************************************** */
+
+.btn-18{
+	padding: 15px 30px;
+	border: none;
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+	position: relative;
+	transition: 0.8s;
+}
+.btn-18::before,
+.btn-18::after{
+	content: '';
+	position: absolute;
+	transition: 0.8s;
+	opacity: 1;
+	background-color: red;
+	height: 3px;
+}
+.btn-18::before{
+	top: 0;
+	right: 0;
+	width: 0%;
+
+}
+.btn-18::after{
+	bottom: 0;
+	left: 0;
+	width: 0%;
+}
+.btn-18:hover::before,
+.btn-18:hover::after{
+	opacity: 1;
+	width: 100%;
+	transition: 0.8s;
+}
+.btn-18 span::after,
+.btn-18 span::before{
+	content: '';
+	position: absolute;
+	transition: 0.8s;
+	opacity: 0;
+	background-color: red;
+	width: 3px;
+}
+.btn-18 span::before{
+	left: 0;
+	top: 0;
+	height: 0%;
+}
+.btn-18 span::after{
+	right: 0;
+	bottom: 0;
+	height: 0%;
+}
+.btn-18:hover span::after,
+.btn-18:hover span::before{
+	opacity: 1;
+	height: 100%;
+	transition: 0.8s;
+}
+
+/* **************************************************
+			btn-18 css code End
+****************************************************** */
+
+
+/* **************************************************
+			btn-19 css code Start
+****************************************************** */
+
+.btn-19{
+	padding: 15px 30px;
+	border: none;
+	background-color: #0e5704;
+	color: white;
+	border-radius: 5px;
+	position: relative;
+}
+.btn-19::before,
+.btn-19::after{
+	content: '';
+	position: absolute;
+	transition: 0.4s;
+	transition-delay: 0.3s;
+	opacity: 1;
+	background-color: yellow;
+	height: 5px;
+}
+.btn-19::before{
+	top: 0;
+	right: 0;
+	width: 0%;
+
+}
+.btn-19::after{
+	bottom: 0;
+	left: 0;
+	width: 0%;
+}
+.btn-19:hover::before,
+.btn-19:hover::after{
+	opacity: 1;
+	width: 100%;
+	transition: 0.4s;
+	transition-delay: 0s;
+}
+.btn-19 span::after,
+.btn-19 span::before{
+	content: '';
+	position: absolute;
+	transition: 0.4s;
+	transition-delay: 0s;
+	opacity: 0;
+	background-color: yellow;
+	width: 5px;
+}
+.btn-19 span::before{
+	left: 0;
+	top: 0;
+	height: 0%;
+}
+.btn-19 span::after{
+	right: 0;
+	bottom: 0;
+	height: 0%;
+}
+.btn-19:hover span::after,
+.btn-19:hover span::before{
+	opacity: 1;
+	height: 100%;
+	transition: 0.4s;
+	transition-delay: 0.3s;
+}
+
+/* **************************************************
+			btn-19 css code End
+****************************************************** */
+
+
+
+
+/* **************************************************
+			btn-20 css code Start
+****************************************************** */
+
+.btn-20{
+	padding: 15px 30px;
+	border: none;
+	background-color: #0e5704;
+	color: white;
+	border-radius: 5px;
+	position: relative;
+}
+.btn-20::before,
+.btn-20::after{
+	content: '';
+	position: absolute;
+	transition: 0.4s;
+	opacity: 1;
+	background-color: yellow;
+	height: 5px;
+}
+.btn-20::before{
+	top: 0;
+	right: 0;
+	width: 0%;
+	transition-delay: 0.9s;
+
+}
+.btn-20::after{
+	bottom: 0;
+	left: 0;
+	width: 0%;
+	transition-delay: 0.3s;
+}
+.btn-20:hover::before{
+	opacity: 1;
+	width: 100%;
+	transition: 0.4s;
+	transition-delay: 0s;
+}
+.btn-20:hover::after{
+	opacity: 1;
+	width: 100%;
+	transition: 0.4s;
+	transition-delay: 0.6s;
+}
+.btn-20 span::after,
+.btn-20 span::before{
+	content: '';
+	position: absolute;
+	transition: 0.4s;
+	opacity: 0;
+	background-color: yellow;
+	width: 5px;
+}
+.btn-20 span::before{
+	left: 0;
+	top: 0;
+	height: 0%;
+	transition-delay: 0.6s;
+}
+.btn-20 span::after{
+	right: 0;
+	bottom: 0;
+	height: 0%;
+	transition-delay: 0s;
+}
+
+.btn-20:hover span::before{
+	opacity: 1;
+	height: 100%;
+	transition: 0.4s;
+	transition-delay: 0.3s;
+}
+.btn-20:hover span::after{
+	opacity: 1;
+	height: 100%;
+	transition: 0.4s;
+	transition-delay: 0.9s;
+}
+
+/* **************************************************
+			btn-20 css code End
+****************************************************** */
+
+.mb-5{
+	margin-top: 80px;
+}
+.btn-circle button{
+	padding: 15px 30px;
+	border: none;
+	background-color: #2ec4f2 !important;
+	color: white;
+	border-radius: 5px;
+	position: relative;
+	transition: 0.8s;
+	cursor: pointer;
+	z-index: 999;
+	overflow: hidden;
+}
+
+.btn.btn-background-circle::before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: red !important;
+	border-radius: 50%;
+	z-index: -1;
+	transition: transform 0.6s;
+
+
+	transform: scale(1.5);
+}
+
+.btn.btn-background-circle:hover::before,
+.btn.btn-background-circle:focus::before{
+	transform: scale(0);
+	outline: none;
+	
+}
